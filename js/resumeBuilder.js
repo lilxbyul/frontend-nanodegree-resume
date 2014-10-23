@@ -86,6 +86,12 @@ var education =
 			'school': 'Udacity',
 			'dates': 2014,
 			'url': 'http://udacity.com/course/ud804'
+		},
+		{
+			'title': 'Intro to CSS and HTML',
+			'school': 'Udacity',
+			'dates': 2014,
+			'url': 'https://www.udacity.com/course/ud304'
 		}
 	]
 };
@@ -115,9 +121,9 @@ education.display = function()
 		$('.education-entry:last').append(formattedMajor);
 		$('.education-entry:last').append(formattedURL);
 	}
+	$('#education').append(HTMLonlineClasses);	
 	for (oc in education.onlineCourses)
 	{
-		$('#education').append(HTMLonlineClasses);
 		$('#education').append(HTMLschoolStart);
 
 		var formattedTitle = HTMLonlineTitle.replace('%data%', education.onlineCourses[oc].title);
@@ -188,13 +194,22 @@ var projects =
 	'projects': 
 	[
 		{
-			'title': 'Sample Project 1',
+			'title': 'Project 1',
 			'dates': '2014',
-			'description': 'cheesey cheese.',
+			'description': 'Portfolio created with framework and bootstrap for the first project in the Nanodegree.',
 			'images': 
 			[
-				'https://example.com',
-				'http://example.com'
+				'images/portfolio.jpg'
+			]
+		},
+		{
+			'title': 'Project2',
+			'dates': '2014',
+			'description': 'Interactive Resume made with javascript.  Second Project for the Nanodegree.',
+			'images': 
+			[
+				'images/resume.jpg',
+				'images/resume.jpg'
 			]
 		}
 	]
