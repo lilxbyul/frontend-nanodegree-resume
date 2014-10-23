@@ -1,7 +1,7 @@
 *{
     padding:0;
     margin:0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -15,7 +15,7 @@
 h1 {
 
   font-size: 40px;
-  color: #F5A623;
+  color: #5588FF;
   line-height: 48px;
   display: inline;
 }
@@ -87,7 +87,7 @@ a {
 }
 
 #skillsH3 {
-  color: #F5AE23;
+  color: #5588FF;
   display: none;
 }
 
@@ -96,11 +96,11 @@ a {
 }
 
 .orange {
-  background-color: #F5AE23;
+  background-color: #5588FF;
 }
 
 .orange-text {
-  color: #F5AE23;
+  color: #5588FF;
 }
 
 .white-text {
